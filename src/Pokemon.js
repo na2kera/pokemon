@@ -37,7 +37,7 @@ function Pokedex() {
 
   return (
     <div className="pokedex">
-      <h1>Pokemon Dex</h1>
+      <h1>na2keraのポケモン図鑑</h1>
       <div className="pokemon-list">
         <ul>
           {pokemonList.map((pokemon, index) => (
