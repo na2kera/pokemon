@@ -1,0 +1,42 @@
+/* src/Pokedex.css */
+.pokedex {
+  text-align: center;
+}
+
+.pokemon-list {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+.pokemon-details {
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
